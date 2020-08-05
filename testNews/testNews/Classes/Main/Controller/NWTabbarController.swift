@@ -14,9 +14,7 @@ class NWTabbarController: UITabBarController {
         super.viewDidLoad()
         let tabbar = UITabBar.appearance()
         tabbar.tintColor = RGBColors(r: 245, g: 90, b: 93)
-        
-        
-      addChildViewController()
+        addChildViewController()
     }
     
     func addChildViewController() {
@@ -26,6 +24,7 @@ class NWTabbarController: UITabBarController {
         setChilidVc(childController: NWMineViewController(), title: "我的", imageName: "mine_tabbar_32x32_", selectImageName: "mine_tabbar_press_32x32_")
    
         setValue(NWMyTabbar(), forKey: "tabBar")
+        
         
     }
     //初始化子控制器

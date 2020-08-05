@@ -21,6 +21,7 @@
 		F0B9B43C24DA46CD00BD7C5D /* NWVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B9B43B24DA46CD00BD7C5D /* NWVideoViewController.swift */; };
 		F0B9B43E24DA47B500BD7C5D /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B9B43D24DA47B500BD7C5D /* Const.swift */; };
 		F0B9B44024DA4C7C00BD7C5D /* NWMyTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B9B43F24DA4C7C00BD7C5D /* NWMyTabbar.swift */; };
+		F0B9B44724DA552F00BD7C5D /* netWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B9B44624DA552F00BD7C5D /* netWorkTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		F0B9B43B24DA46CD00BD7C5D /* NWVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWVideoViewController.swift; sourceTree = "<group>"; };
 		F0B9B43D24DA47B500BD7C5D /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		F0B9B43F24DA4C7C00BD7C5D /* NWMyTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWMyTabbar.swift; sourceTree = "<group>"; };
+		F0B9B44624DA552F00BD7C5D /* netWorkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = netWorkTool.swift; sourceTree = "<group>"; };
 		F4EA0DB34A708313AF13EBE9 /* Pods-testNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testNews.debug.xcconfig"; path = "Target Support Files/Pods-testNews/Pods-testNews.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 		F0B9B41624DA405C00BD7C5D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F0B9B44124DA53C600BD7C5D /* Tools */,
 				F0B9B42924DA43FD00BD7C5D /* Home */,
 				F0B9B41D24DA43FD00BD7C5D /* HuoShan */,
 				F0B9B42124DA43FD00BD7C5D /* Main */,
@@ -271,6 +274,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F0B9B44124DA53C600BD7C5D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F0B9B44624DA552F00BD7C5D /* netWorkTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		F2AE893C593A1BCA8C42EA52 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -413,6 +424,7 @@
 				F0B9B40724DA373E00BD7C5D /* ViewController.swift in Sources */,
 				F0B9B40324DA373E00BD7C5D /* AppDelegate.swift in Sources */,
 				F0B9B44024DA4C7C00BD7C5D /* NWMyTabbar.swift in Sources */,
+				F0B9B44724DA552F00BD7C5D /* netWorkTool.swift in Sources */,
 				F0B9B43E24DA47B500BD7C5D /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
