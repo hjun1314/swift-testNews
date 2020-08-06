@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0581DA3024766FBB2502E5FC /* Pods_testNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA907D2AE9838EA537738DB0 /* Pods_testNews.framework */; };
+		F0985EF724DBEAF900F9E6E1 /* NWHomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0985EF624DBEAF900F9E6E1 /* NWHomeListViewController.swift */; };
 		F0B9B40324DA373E00BD7C5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B9B40224DA373E00BD7C5D /* AppDelegate.swift */; };
 		F0B9B40724DA373E00BD7C5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B9B40624DA373E00BD7C5D /* ViewController.swift */; };
 		F0B9B40A24DA373E00BD7C5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B9B40824DA373E00BD7C5D /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		A9EAD1D9535B5E10A4B0408E /* Pods-testNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testNews.release.xcconfig"; path = "Target Support Files/Pods-testNews/Pods-testNews.release.xcconfig"; sourceTree = "<group>"; };
 		DA907D2AE9838EA537738DB0 /* Pods_testNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0985EF624DBEAF900F9E6E1 /* NWHomeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWHomeListViewController.swift; sourceTree = "<group>"; };
 		F0B9B3FF24DA373E00BD7C5D /* testNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0B9B40224DA373E00BD7C5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0B9B40624DA373E00BD7C5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				F0B9B43524DA469700BD7C5D /* NWHomeViewController.swift */,
+				F0985EF624DBEAF900F9E6E1 /* NWHomeListViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				F0B9B43A24DA46BE00BD7C5D /* NWMineViewController.swift in Sources */,
 				F0B9B43824DA46AF00BD7C5D /* NWHuoShanViewController.swift in Sources */,
 				F0B9B43424DA447E00BD7C5D /* NWNavViewController.swift in Sources */,
+				F0985EF724DBEAF900F9E6E1 /* NWHomeListViewController.swift in Sources */,
 				F0B9B40724DA373E00BD7C5D /* ViewController.swift in Sources */,
 				F0B9B40324DA373E00BD7C5D /* AppDelegate.swift in Sources */,
 				F0B9B44024DA4C7C00BD7C5D /* NWMyTabbar.swift in Sources */,
