@@ -8,7 +8,9 @@
 
 import UIKit
 import JXSegmentedView
-
+import Moya
+import Alamofire
+import SwiftyJSON
 class NWHomeViewController: UIViewController {
     var segmentDataSource: JXSegmentedTitleDataSource?
     let segmentView = JXSegmentedView()
@@ -30,7 +32,21 @@ class NWHomeViewController: UIViewController {
         
         segmentDataSource = JXSegmentedTitleDataSource()
         segmentView.dataSource = segmentDataSource
+        segmentDataSource?.titleSelectedColor = UIColor.red
+        segmentDataSource?.titleNormalFont = UIFont.systemFont(ofSize: 15)
+        segmentDataSource?.titleSelectedFont = UIFont.systemFont(ofSize: 17)
+        segmentDataSource?.isTitleColorGradientEnabled = true
         self.segmentDataSource?.titles = ["西瓜","苹果","香蕉","栗子","哈密瓜","菠萝","莲雾","柠檬"]
+
+        let indicator = JXSegmentedIndicatorLineView()
+        indicator.indicatorColor = UIColor.red
+        segmentView.indicators = [indicator]
+        
+        
+    }
+    
+    func requsetData() {
+        
 
         
     }

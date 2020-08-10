@@ -8,16 +8,43 @@
 
 import UIKit
 import JXSegmentedView
-
-class NWHomeListViewController: UIViewController {
-
+import MJRefresh
+class NWHomeListViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+   //tableView
+    lazy var tableView : UITableView = {
+        let tableView = UITableView(frame: .zero, style: .plain)
+        tableView.backgroundColor = .white
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.register(NWSingalTitleCell.self, forCellReuseIdentifier: NSStringFromClass(NWSingalTitleCell.self))
+        return tableView
+        
+    }()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubview(tableView)
+               tableView.snp.makeConstraints { (make) in
+                   make.edges.equalTo(view)
+               }
 
-        // Do any additional setup after loading the view.
     }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell : NWSingalTitleCell = tableView.dequeueReusableCell(withIdentifier: NSStringFromClass(NWSingalTitleCell.self),for: indexPath) as! NWSingalTitleCell
+        cell.titleLab?.text = "asddasd"
 
+        return cell
+        
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 44
+    }
   
 
 }
