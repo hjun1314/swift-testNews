@@ -23,6 +23,10 @@
 		F0B9B43E24DA47B500BD7C5D /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B9B43D24DA47B500BD7C5D /* Const.swift */; };
 		F0B9B44024DA4C7C00BD7C5D /* NWMyTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B9B43F24DA4C7C00BD7C5D /* NWMyTabbar.swift */; };
 		F0B9B44724DA552F00BD7C5D /* netWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B9B44624DA552F00BD7C5D /* netWorkTool.swift */; };
+		F0DB9AC124E3849C00A9B309 /* NWHomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB9AC024E3849C00A9B309 /* NWHomePageModel.swift */; };
+		F0DB9AC324E3863600A9B309 /* NWHomePageListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB9AC224E3863600A9B309 /* NWHomePageListModel.swift */; };
+		F0DB9AC524E38AF500A9B309 /* HttpRequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB9AC424E38AF500A9B309 /* HttpRequestExtension.swift */; };
+		F0DB9AC724E38B2000A9B309 /* HttpRequestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB9AC624E38B2000A9B309 /* HttpRequestFile.swift */; };
 		F0DEE28A24E1192100A329DD /* NWSingalTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DEE28924E1192100A329DD /* NWSingalTitleCell.swift */; };
 		F0DEE28C24E1197200A329DD /* NWImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DEE28B24E1197200A329DD /* NWImageViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +51,10 @@
 		F0B9B43D24DA47B500BD7C5D /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		F0B9B43F24DA4C7C00BD7C5D /* NWMyTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWMyTabbar.swift; sourceTree = "<group>"; };
 		F0B9B44624DA552F00BD7C5D /* netWorkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = netWorkTool.swift; sourceTree = "<group>"; };
+		F0DB9AC024E3849C00A9B309 /* NWHomePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWHomePageModel.swift; sourceTree = "<group>"; };
+		F0DB9AC224E3863600A9B309 /* NWHomePageListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWHomePageListModel.swift; sourceTree = "<group>"; };
+		F0DB9AC424E38AF500A9B309 /* HttpRequestExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestExtension.swift; sourceTree = "<group>"; };
+		F0DB9AC624E38B2000A9B309 /* HttpRequestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestFile.swift; sourceTree = "<group>"; };
 		F0DEE28924E1192100A329DD /* NWSingalTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWSingalTitleCell.swift; sourceTree = "<group>"; };
 		F0DEE28B24E1197200A329DD /* NWImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWImageViewCell.swift; sourceTree = "<group>"; };
 		F4EA0DB34A708313AF13EBE9 /* Pods-testNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testNews.debug.xcconfig"; path = "Target Support Files/Pods-testNews/Pods-testNews.debug.xcconfig"; sourceTree = "<group>"; };
@@ -238,6 +246,8 @@
 		F0B9B42B24DA43FD00BD7C5D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F0DB9AC024E3849C00A9B309 /* NWHomePageModel.swift */,
+				F0DB9AC224E3863600A9B309 /* NWHomePageListModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -287,6 +297,8 @@
 			isa = PBXGroup;
 			children = (
 				F0B9B44624DA552F00BD7C5D /* netWorkTool.swift */,
+				F0DB9AC424E38AF500A9B309 /* HttpRequestExtension.swift */,
+				F0DB9AC624E38B2000A9B309 /* HttpRequestFile.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -427,14 +439,18 @@
 				F0B9B43224DA445D00BD7C5D /* NWTabbarController.swift in Sources */,
 				F0B9B43C24DA46CD00BD7C5D /* NWVideoViewController.swift in Sources */,
 				F0B9B43624DA469700BD7C5D /* NWHomeViewController.swift in Sources */,
+				F0DB9AC724E38B2000A9B309 /* HttpRequestFile.swift in Sources */,
 				F0B9B43A24DA46BE00BD7C5D /* NWMineViewController.swift in Sources */,
 				F0B9B43824DA46AF00BD7C5D /* NWHuoShanViewController.swift in Sources */,
 				F0B9B43424DA447E00BD7C5D /* NWNavViewController.swift in Sources */,
+				F0DB9AC124E3849C00A9B309 /* NWHomePageModel.swift in Sources */,
 				F0985EF724DBEAF900F9E6E1 /* NWHomeListViewController.swift in Sources */,
+				F0DB9AC524E38AF500A9B309 /* HttpRequestExtension.swift in Sources */,
 				F0DEE28C24E1197200A329DD /* NWImageViewCell.swift in Sources */,
 				F0B9B40724DA373E00BD7C5D /* ViewController.swift in Sources */,
 				F0B9B40324DA373E00BD7C5D /* AppDelegate.swift in Sources */,
 				F0B9B44024DA4C7C00BD7C5D /* NWMyTabbar.swift in Sources */,
+				F0DB9AC324E3863600A9B309 /* NWHomePageListModel.swift in Sources */,
 				F0DEE28A24E1192100A329DD /* NWSingalTitleCell.swift in Sources */,
 				F0B9B44724DA552F00BD7C5D /* netWorkTool.swift in Sources */,
 				F0B9B43E24DA47B500BD7C5D /* Const.swift in Sources */,

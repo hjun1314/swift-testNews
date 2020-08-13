@@ -54,4 +54,27 @@ let keyWindow = UIApplication.shared.windows
 let kIsIphone = Bool(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiom.phone)
 
 
+//Json字符串转字典
+func getDictionaryFromJSONString(jsonString:String) ->NSDictionary{
+    let jsonData:Data = jsonString.data(using: .utf8)!
+    let dict = try? JSONSerialization.jsonObject(with: jsonData, options: .mutableContainers)
+    if dict != nil {
+        return dict as! NSDictionary
+    }
+    return NSDictionary()
+}
+
+
+//服务器地址
+//let BASE_URL = "https://lf.snssdk.com"
+//let BASE_URL = "https://ib.snssdk.com"
+let BASE_URL = "https://is.snssdk.com"
+//let BASE_URL = "http://wisdomnj.manjiwang.com"
+let device_id: String = "6096495334"
+let IID: String = "5034850950"
+
+//站点序号
+let wnj_siteId = "fef0791f7bd37b3de92954dd6d04ebb1"
+
+
 
